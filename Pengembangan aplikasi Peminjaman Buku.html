@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pengembangan Aplikasi Peminjaman Buku</title>
+  <style>
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin: 30px auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      max-width: 900px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    .proj-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .proj-images {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .proj-images img {
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .proj-images img:hover {
+      transform: scale(1.05);
+    }
+
+    .proj-info {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 800px;
+      text-align: left;
+    }
+
+    .proj-info p {
+      line-height: 1.6;
+      color: #333;
+    }
+  </style>
+</head>
+<body bgcolor="bg-blue">
+  <section id="project">
+    <div class="card">
+      <h2>Pengembangan Aplikasi Peminjaman Buku</h2>
+      <div class="proj-container">
+        <!-- Foto diagram -->
+        <div class="proj-images">
+          <img src="Usecase.jpeg" alt="Use Case Diagram">
+          <img src="UsecaseActivity.drawio.png" alt="Activity Diagram">
+          <img src="Flowchart.jpeg" alt="Flowchart">
+        </div>
+
+        <!-- hasil penjelasan dari arya -->
+        <div class="proj-info">
+          <p>Sebagai Fullstack Developer, saya mengembangkan aplikasi peminjaman buku berbasis web untuk mendukung proses peminjaman dan pengembalian di perpustakaan. 
+          Use case diagram menggambarkan interaksi siswa dan admin, activity diagram menjelaskan alur login, peminjaman, dan pengembalian, 
+          sedangkan flowchart menunjukkan detail logika sistem dari login hingga transaksi. 
+          Aplikasi ini dibangun dengan konsep MVC menggunakan Laravel untuk backend dan HTML/CSS/JS untuk frontend.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
